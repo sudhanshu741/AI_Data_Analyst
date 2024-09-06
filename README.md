@@ -54,5 +54,51 @@ Some visualizations that my AI has given:
 ![image](https://github.com/user-attachments/assets/0955ff70-6e90-4ec2-85bc-69df88f16263)
 
 
+<hr>
+The library used in this code are :
+-> pandas- For data ingestion and creating the dataframe. We also use this library for removing any duplicates if possible. We also use pandas to know about min, max, standard deviation and mean which is helpful in data analysis.
+-> matplotlib and altair - It is used for plotting various plot that you see above.
 
+The assignment also said to do unit testing for which the code is written in 
+Test_Data_Analysis.ipynb.
 
+This notebook uses unittest library which is used to write unit tests.
+The provided code snippet is a unit test suite for a data analysis module utilizing the unittest framework in Python. It focuses on testing several functions that presumably pertain to loading, cleaning, and analyzing data. Here's a breakdown of the key components and functionality:
+
+Key Concepts
+Unit Testing: Unit tests are used to verify the functionality of individual parts of the code. Each method in the TestDataAnalysis class is a separate test case.
+
+Mocking with unittest.mock:
+
+The patch decorator is used to replace real implementations of functions (like pandas.read_csv and pandas.read_json) with mock versions. This allows for controlled testing without needing actual files.
+MagicMock objects are created to simulate the behavior of these functions within their respective test cases.
+Tests Explained
+test_load_data_csv:
+
+Tests the load_data function for CSV files.
+Mocks the pandas.read_csv method to return a predefined DataFrame.
+Asserts that read_csv was called once with the correct path and checks the shape of the DataFrame.
+test_load_data_json:
+
+Similar to the CSV test but for JSON files.
+It mocks pandas.read_json and asserts the correct shape and function call.
+test_load_data_invalid_extension:
+
+Tests the behavior of load_data when an unsupported file format (TXT) is provided.
+Asserts that a ValueError is raised with the correct message.
+test_clean_data:
+
+Tests the clean_data function.
+Provides a sample DataFrame and checks that the cleaned DataFrame has the expected shape.
+test_describe:
+
+Tests a descriptive statistics function (probably intended to calculate summary stats).
+Asserts that the mean value for one of the columns in the DataFrame is as expected.
+test_trend:
+
+Tests a function that returns trends in the data (here, presumably the top N countries based on some metric).
+Checks the shape and contents of the resulting filtered DataFrame.
+test_report:
+
+Tests a function that generates a report from the DataFrame.
+Asserts that specific phrases exist in the output report.
