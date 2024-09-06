@@ -33,3 +33,7 @@ As an AI engineer intern at Workplete, your task is to develop a prototype for a
 - Write unit tests for critical components of your implementation
 
 
+Some visualizations that my AI has given:
+![image](https://github.com/user-attachments/assets/022bc6ec-82ed-4409-b2a1-c28756542084)
+
+
