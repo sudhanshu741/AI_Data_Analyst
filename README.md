@@ -35,5 +35,19 @@ As an AI engineer intern at Workplete, your task is to develop a prototype for a
 
 Some visualizations that my AI has given:
 ![image](https://github.com/user-attachments/assets/022bc6ec-82ed-4409-b2a1-c28756542084)
+**Gold won by each country**
+![image](https://github.com/user-attachments/assets/be83d02d-3b72-43cc-bfac-68a2bff95e07)
+
+**Silver won by each country**
+![image](https://github.com/user-attachments/assets/b34b6005-0dd3-49c0-931b-fa28699faedc)
+
+**Bronze won by each country**
+
+![image](https://github.com/user-attachments/assets/3c48c033-2e2c-4989-9986-a6a040fa15b6)
+
+**medal won by each country v/s titall medals**
+![image](https://github.com/user-attachments/assets/0955ff70-6e90-4ec2-85bc-69df88f16263)
+
+
 
 
