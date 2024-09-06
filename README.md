@@ -102,3 +102,8 @@ test_report:
 
 Tests a function that generates a report from the DataFrame.
 Asserts that specific phrases exist in the output report.
+
+<hr>
+The code maintains a modular structure with the help of many functions that ae used for stramlining the process of data analysis. 
+I  also created a cli or command line interface for user in which user can select from 1 to 8, which allows user to switch between functions according to user. 
+<h5>Thank You</h5>
